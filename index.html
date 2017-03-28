@@ -9,19 +9,26 @@
     <title></title>
 
     <center>
-
+        <h1 class="header">Registration Number</h1>
 
 </head>
 
-<body>
-    <center><input type="text" id="textBox" value=""> </center>
-
-    <center><input type="button" id="addRegistration" value="add" click="function()"></center>
-    <center><input type="radio"></center>
+<body background="pic.jpg">
+    <center><input type="text" placeHolder="Registration" id="textBox" value=""></center>
+    <center>
+        <input type="button" id="addRegistration" value="add" click="function()"></center>
+    <div id="radioButt">
+        <input type="radio" name="Registration" id="CapeTown" value="CA">Cape Town
+        <input type="radio" name="Registration" id="durban" value="CF">Durban
+        <input type="radio" name="Registration" id="joburg" value="GP">Joburg
+        <input type="radio" name="Registration" id="allReg" value="All">All
+    </div>
 
     <div id="regNumbers">
-      <h1 class="tale">CA 45679</h1>
+        <h2 id="tale"></h2>
     </div>
+
+
 
 
 </body>
